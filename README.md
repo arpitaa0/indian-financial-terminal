@@ -3,6 +3,7 @@
 A complete and professional Indian stock market trading terminal built with Next.js, React, and TypeScript. The platform provides market insights, portfolio tracking, technical analysis tools, stock screening, price alerts, and financial news in a modern and responsive interface.
 
 ---
+![Watchlist](screenshots/watchlist.png)
 
 ## 🌟 Features
 
@@ -106,20 +107,35 @@ A complete and professional Indian stock market trading terminal built with Next
 
 ## 📂 Project Structure
 
-```text
-app/
-├── api/
-├── layout.tsx
-└── page.tsx
-
-components/
-└── indian-terminal/
-
-lib/
-types/
-```
-
----
+indian-financial-terminal/
+├── app/
+│   ├── api/                    # API routes
+│   ├── page.tsx                # Main page
+│   ├── layout.tsx              # Root layout
+│   └── globals.css             # Global styles
+├── components/
+│   └── indian-terminal/        # Terminal components
+│       ├── market-dashboard.tsx
+│       ├── portfolio.tsx
+│       ├── price-alerts.tsx
+│       ├── trading-journal.tsx
+│       ├── stock-screener.tsx
+│       └── economic-calendar.tsx
+├── lib/
+│   ├── market-data.ts          # Market data fetching
+│   ├── indian-market-config.ts # Configuration
+│   └── *-context.tsx           # State management
+├── types/
+│   ├── market.ts
+│   ├── portfolio.ts
+│   ├── alerts.ts
+│   ├── journal.ts
+│   └── index.ts
+├── public/                     # Static assets
+├── .env.local                  # Environment variables
+├── package.json
+├── tsconfig.json
+└── README.md
 
 ## 🚀 Getting Started
 
@@ -176,25 +192,7 @@ in your browser.
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Stock Screener
-![Stock Screener](screenshots/screener.png)
-
-### Economic Calendar
-![Economic Calendar](screenshots/calendar.png)
-
-### Watchlist
-![Watchlist](screenshots/watchlist.png)
-
-### Technical Indicators
-![Technical Indicators](screenshots/technical-indicators.png)
-
-### Price Alerts
-![Price Alerts](screenshots/alerts.png)
-
-### Market News
-![Market News](screenshots/market-news.png)
+![Dashboard](screenshots/dashboard.png) 
 
 ## 🔮 Future Enhancements
 
