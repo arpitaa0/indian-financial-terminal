@@ -107,35 +107,43 @@ A complete and professional Indian stock market trading terminal built with Next
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 indian-financial-terminal/
 ├── app/
-│   ├── api/                    # API routes
-│   ├── page.tsx                # Main page
-│   ├── layout.tsx              # Root layout
-│   └── globals.css             # Global styles
+│   ├── api/                 # API routes
+│   ├── page.tsx            # Main page
+│   ├── layout.tsx          # Root layout
+│   └── globals.css         # Global styles
+│
 ├── components/
-│   └── indian-terminal/        # Terminal components
+│   └── indian-terminal/    # Terminal components
 │       ├── market-dashboard.tsx
 │       ├── portfolio.tsx
 │       ├── price-alerts.tsx
 │       ├── trading-journal.tsx
 │       ├── stock-screener.tsx
 │       └── economic-calendar.tsx
+│
 ├── lib/
 │   ├── market-data.ts          # Market data fetching
 │   ├── indian-market-config.ts # Configuration
 │   └── *-context.tsx           # State management
+│
 ├── types/
 │   ├── market.ts
 │   ├── portfolio.ts
 │   ├── alerts.ts
 │   ├── journal.ts
 │   └── index.ts
-├── public/                     # Static assets
-├── .env.local                  # Environment variables
+│
+├── public/               # Static assets
+├── .env.local           # Environment variables
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 ## 🚀 Getting Started
 
