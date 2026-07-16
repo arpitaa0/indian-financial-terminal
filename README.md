@@ -3,7 +3,6 @@
 A complete and professional Indian stock market trading terminal built with Next.js, React, and TypeScript. The platform provides market insights, portfolio tracking, technical analysis tools, stock screening, price alerts, and financial news in a modern and responsive interface.
 
 ---
-![Watchlist](screenshots/watchlist.png)
 
 ## 🌟 Features
 
