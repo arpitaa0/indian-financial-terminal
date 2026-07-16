@@ -107,8 +107,6 @@ A complete and professional Indian stock market trading terminal built with Next
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```text
 indian-financial-terminal/
 ├── app/
@@ -196,11 +194,6 @@ in your browser.
 * Financial news integration
 
 ---
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png) 
 
 ## 🔮 Future Enhancements
 
